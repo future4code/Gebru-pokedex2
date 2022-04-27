@@ -23,7 +23,7 @@ Trate-se de uma lista com todos os Pokemons da API, aonde se pode visualizar inf
 
 ## :ghost: Como acessar o projeto
 
-- [Link da Pokédex](https://serious-arm.surge.sh/)
+- [Link da Pokédex](https://greasy-squirrel.surge.sh/)
 
 ## :robot: Tecnologias utilizadas
 
