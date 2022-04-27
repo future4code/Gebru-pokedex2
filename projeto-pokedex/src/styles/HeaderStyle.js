@@ -38,14 +38,4 @@ export const HeaderStyled = styled.div`
             color: white;
         }
     }
-
-@media (max-width: 480px) {
-    div {
-        width: 70%;
-    }
-    button{
-        padding: 10px;
-        font-size: 1.1rem;
-    }
-}
 `
