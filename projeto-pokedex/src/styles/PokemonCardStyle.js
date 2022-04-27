@@ -14,10 +14,6 @@ export const EmptyPokedexImage = styled.img`
 margin-top: 30px;
     max-width: 50vw;
     max-height: 50vh;
-
-@media (max-width:650px) {
-    width: 80vw;
-}
 `
 
 export const PaginationStyled = styled(Pagination)`
@@ -29,18 +25,6 @@ export const PaginationStyled = styled(Pagination)`
 export const DivContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
-@media (max-width: 850px) {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-@media (max-width: 640px) {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-@media (max-width: 480px) {
-    grid-template-columns: 1fr;
-}
 `
 
 export const Loading = styled(CircularProgress)`
@@ -81,25 +65,6 @@ export const CardContainer = styled.div`
         max-height: 20vh;
         margin: 10px;
     }
-
-@media (max-width: 850px) {
-    width: 30vw;
-    img{
-        max-width: 30vw;
-    }
-}
-
-@media (max-width: 640px) {
-    width: 45vw;
-}
-
-@media (max-width: 480px) {
-    width: 85vw;
-    img{
-        max-width: 40vw;
-        max-height: 30vh;
-    }
-}
 `
 
 export const ImageContainer = styled.div`
@@ -107,11 +72,6 @@ export const ImageContainer = styled.div`
     justify-content: center;
     width: 20vw;
     height: 20vh;
-
-@media (max-width: 480px) {
-    width: 80vw;
-    height: 30vh;
-}
 `
 
 export const ButtonContainer = styled.div`
@@ -132,15 +92,4 @@ export const ButtonContainer = styled.div`
             color: white;
         }
     }
-@media (max-width: 1000px) {
-    flex-direction: column;
-}
-
-@media (max-width: 480px) {
-    flex-direction: row;
-    button{
-        padding: 15px;
-    }
-}
-
 `
