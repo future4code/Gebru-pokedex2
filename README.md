@@ -54,6 +54,6 @@ o projeto foi desenvolvido usando as seguintes tecnologias:
 
 
 ## :iphone: Responsivo para IPHONE 6/7/8 Plus
-Dessa vez não fiz responsivo.
+Não deu tempo de fazermos.
 
 
