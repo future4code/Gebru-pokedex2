@@ -2,29 +2,6 @@ import styled from "styled-components";
 import { mainColor, secondColor } from "../constants/colors";
 import { LinearProgress, linearProgressClasses } from "@mui/material";
 
-
-const typeColor = {
-    'bug': '#1c5013',
-    'poison': '#b289e0',
-    'fire': '#ff7c24',
-    'dark': '#525252',
-    'dragon': '#3b79a3',
-    'electric': '#f1ef6d',
-    'fairy': '#fa6cae',
-    'fighting': '#f61950',
-    'flying': '#7d8dbb',
-    'ghost': '#5163c8',
-    'grass': '#59ce66',
-    'ground': '#fb7e36',
-    'ice': '#8dccdb',
-    'normal': '#979697',
-    'psychic': '#fb4655',
-    'rock': '#c7a958',
-    'steel': '#466279',
-    'water': '#408adf'
-};
-
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -61,14 +38,6 @@ export const ContainerContent = styled.div`
     width: 80vw;
     justify-content: space-evenly;
     align-items: center;
-
-    @media (max-width: 1100px) {
-        width: 100vw;
-    }
-
-    @media (max-width: 870px) {
-        flex-direction: column;
-    }
 `
 
 export const MovesContainer = styled.div`
@@ -163,3 +132,24 @@ export const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
       backgroundColor: {secondColor},
     },
   }));
+
+const typeColor = {
+    'bug': '#1c5013',
+    'poison': '#b289e0',
+    'fire': '#ff7c24',
+    'dark': '#525252',
+    'dragon': '#3b79a3',
+    'electric': '#f1ef6d',
+    'fairy': '#fa6cae',
+    'fighting': '#f61950',
+    'flying': '#7d8dbb',
+    'ghost': '#5163c8',
+    'grass': '#59ce66',
+    'ground': '#fb7e36',
+    'ice': '#8dccdb',
+    'normal': '#979697',
+    'psychic': '#fb4655',
+    'rock': '#c7a958',
+    'steel': '#466279',
+    'water': '#408adf'
+};
